@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
-import WhyChooseUs from "../components/WhyChooseUs";
+import Portfolio from "../components/Portfolio";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Services />
+      <Portfolio />
     </>
   );
 };
